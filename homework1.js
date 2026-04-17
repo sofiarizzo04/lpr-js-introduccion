@@ -1,6 +1,6 @@
 //Nombre y Apellido:
-//Curso: 
-//Grupo:
+//Curso: 6to
+//Grupo: 604
 //Taller de Programacion III
 //Departamento de Informatica - EESTn°1 - Raul Scalabrini Ortiz
 
