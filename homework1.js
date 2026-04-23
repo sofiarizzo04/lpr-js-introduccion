@@ -1,4 +1,4 @@
-//Nombre y Apellido:
+//Nombre y Apellido:Sofia Rizzo
 //Curso: 6to
 //Grupo: 604
 //Taller de Programacion III
@@ -12,19 +12,19 @@
 const nuevaString = "hola esto es un texto" ;
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 26;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = null * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 4.2;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -45,21 +45,20 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+ return (x+y);
 
 }
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  
-
+  return (x-y);
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  return (x*y);
 
 
 }
@@ -67,7 +66,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  return (x/y);
 
 
 }
