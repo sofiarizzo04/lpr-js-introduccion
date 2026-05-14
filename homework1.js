@@ -152,7 +152,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  math.pow(num,2);
+ return num ** 2;
   
 
 }
@@ -160,7 +160,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  math.pow (num,3);
+  return num ** 3;
   
 
 }
@@ -168,7 +168,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-
+ Math.pow (num, exponent);
   
 
 }
@@ -176,7 +176,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
-  
+  Math.round (num);
   
 
 }
