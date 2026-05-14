@@ -184,7 +184,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-
+Math.ceil (num);
   
 
 }
