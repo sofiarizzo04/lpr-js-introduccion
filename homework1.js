@@ -169,7 +169,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
  Math.pow (num, exponent);
-  
+  return num ** exponent;
 
 }
 
@@ -177,6 +177,7 @@ function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
   Math.round (num);
+  return Math.round (num);
   
 
 }
@@ -185,6 +186,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
 Math.ceil (num);
+return Math.ceil (num);
   
 
 }
@@ -194,7 +196,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
  function str () {
- 
+
  }
   
 
